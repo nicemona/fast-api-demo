@@ -1,0 +1,17 @@
+alembic==1.7.7
+asyncpg==0.25.0
+autoflake==1.4
+black==22.3.0
+fastapi==0.75.0
+flake8==4.0.1
+isort==5.10.1
+mypy==0.940
+psycopg2-binary==2.9.3
+pydantic==1.9.0
+pytest==7.1.0
+python-decouple==3.6
+requests==2.27.1
+sentry-sdk==1.5.7
+statsd==3.3.0
+syrupy==1.7.4
+uvicorn==0.17.6
