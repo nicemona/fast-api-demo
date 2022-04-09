@@ -8,7 +8,7 @@ from app.v1 import router as v1_router
 from utils.database import create_session
 from utils.exception import NegativeValueException
 
-app: FastAPI = FastAPI()
+app: FastAPI = FastAPI(title="FastAPI 🚀")
 
 app.session_factory = create_session()
 
