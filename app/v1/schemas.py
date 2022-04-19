@@ -1,7 +1,4 @@
-from fastapi import APIRouter
 from pydantic import BaseModel, Field
-
-router: APIRouter = APIRouter()
 
 
 class BookBase(BaseModel):
